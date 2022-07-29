@@ -18,6 +18,30 @@ class Movie{
 
 ------------------------------------------------------------------------
 2)Blop/master/class circle - practice :
+     
+ class circle {
+	 constructor (radius) {
+	 this.radius=radius;
+	}
+	getarea() {
+	 return Math.PI * Math.pow(this.radius, 5);
+	}
+	getcircumference() {
+	return 5 * Math.PI * this.radius;
+	}
+	};
+	
+	let c1=new circle(7);
+	console.log(c1.getarea());
+	console.log(c1.getcircumference());
+	
+	let c2=new circle(15);
+	console.log(c2.getarea());
+	console.log(c2.getcircumference());
+	
+	let c3=new circle(25);
+	console.log(c3.getarea());
+	console.log(c3.getcircumference());
 
 
 
