@@ -24,10 +24,10 @@ class Movie{
 	 this.radius=radius;
 	}
 	getarea() {
-	 return Math.PI * Math.pow(this.radius, 5);
+	 return Math.PI * Math.pow(this.radius, 2);
 	}
 	getcircumference() {
-	return 5 * Math.PI * this.radius;
+	return 2 * Math.PI * this.radius;
 	}
 	};
 	
